@@ -1,0 +1,13 @@
+{
+    "name": "everus/doctrine-published",
+    "description": "Published filter for doctrine",
+    "require": {
+        "doctrine/orm": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Mark Antipov",
+            "email": "oper29a@gmail.com"
+        }
+    ]
+}
