@@ -1,8 +1,11 @@
 {
-    "name": "everus/doctrine-published",
-    "description": "Published filter for doctrine",
+    "name": "everus/doctrine-filters",
+    "description": "Some filter for doctrine",
     "require": {
         "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-4": { "Everus\\DoctrineFilters\\": "src/" }
     },
     "authors": [
         {
