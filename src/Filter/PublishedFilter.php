@@ -24,7 +24,7 @@ class PublishedFilter extends SQLFilter
         if (empty($this->reader)) {
             return '';
         }
-        
+
         $publishable = $this->reader->getClassAnnotation(
             $targetEntity->getReflectionClass(),
             'Everus\\DoctrineFilters\\Annotation\\Publishable'
@@ -34,6 +34,6 @@ class PublishedFilter extends SQLFilter
             return '';
         }
 
-        return $targetTableAlias.'.published = true';
+        return $targetTableAlias.'.published = 1';
     }
 }
